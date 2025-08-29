@@ -1,0 +1,10 @@
+# Node modules
+my-app/node_modules/
+
+# Expo / React Native
+my-app/.expo/
+my-app/android/
+my-app/ios/
+
+# Logs
+my-app/*.log
