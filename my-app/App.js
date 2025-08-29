@@ -15,7 +15,8 @@ function HomeScreen({ navigation }) {
       <Text style={styles.title}>Hello, welcome to my first page!</Text>
       <View style={{ marginTop: 20 }}>
         <Button title="Navigate" onPress={() =>
-           navigation.navigate("Second")} />
+           navigation.navigate("Second")}
+           color="#23316eff" />  // try other metods of adding color to button
       </View>
     </View>
   );
@@ -47,11 +48,14 @@ export default function App() {
 
 const styles = StyleSheet.create({
   container: { 
-    flex: 1, justifyContent: "center", alignItems: "center"
-  },
+    flex: 1, 
+    justifyContent: "center",
+     alignItems: "center"
+  }
+  ,
   title: { 
     fontFamily: "DancingScript_400Regular", 
-    fontSize: 32, 
+  fontSize: 32, 
     color: "#240e79ff",
     textAlign: "center"
   },
